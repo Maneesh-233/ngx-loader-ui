@@ -31,6 +31,32 @@
           }
         }
       }
+    },
+    "ngx-loader-ui": {
+      "projectType": "library",
+      "root": "projects/ngx-loader-ui",
+      "sourceRoot": "projects/ngx-loader-ui/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-loader-ui/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-loader-ui/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/ngx-loader-ui/tsconfig.spec.json"
+          }
+        }
+      }
     }
   }
 }

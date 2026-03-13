@@ -8,7 +8,8 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "my-lib": ["./dist/my-lib"]
+      "my-lib": ["./dist/my-lib"],
+      "ngx-loader-ui": ["./dist/ngx-loader-ui"]
     },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
@@ -31,6 +32,12 @@
     },
     {
       "path": "./projects/my-lib/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ngx-loader-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ngx-loader-ui/tsconfig.spec.json"
     }
   ]
 }
