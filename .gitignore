@@ -1,76 +1,117 @@
-# Logs
+```gitignore
+# Build artifacts
+dist/
+build/
+*.js
+*.ts
+*.html
 
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# Angular / Build output
-
-/dist
-/tmp
-/out-tsc
-/bazel-out
-
-# Node
-
-/node_modules
+# Dependencies
 node_modules/
-jspm_packages/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # Coverage
+coverage/
+htmlcov/
+.coverage
 
-coverage
-*.lcov
-.nyc_output
+# Distribution / packaging
+.Python
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Cache
+# Unit test / coverage reports
+.junit.xml
+coverage.xml
+*.cover
+.hypothesis/
 
-/.angular/cache
-.cache
-.parcel-cache
-.sass-cache/
+# Translations
+*.mo
+*.pot
 
-# IDEs and editors
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
 
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sage
+home/sage/.sage/
+.sage_ipython_history
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
 .idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+*.swp
+*.swo
 
-# VS Code
-
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/mcp.json
-
-# TypeScript
-
-*.tsbuildinfo
-
-# Environment variables
-
-.env
-.env.*
-!.env.example
-
-# Misc
-
-/connect.lock
-/libpeerconnection.log
-testem.log
-/typings
-**screenshots**/
-
-# System files
-
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+```
