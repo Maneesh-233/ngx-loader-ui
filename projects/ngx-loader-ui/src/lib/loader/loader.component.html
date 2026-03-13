@@ -1,0 +1,178 @@
+<div class="ngx-loader-container" [ngStyle]="cssVars" [class]="'size-' + size">
+
+  @switch (type) {
+
+    @case ('spinner') {
+      <div class="spinner"></div>
+    }
+
+    @case ('dots') {
+      <div class="dots">
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('bars') {
+      <div class="bars">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('pulse') {
+      <div class="pulse"></div>
+    }
+
+    @case ('skeleton') {
+      <div class="skeleton">
+        <div class="skeleton-line full"></div>
+        <div class="skeleton-line full"></div>
+        <div class="skeleton-line short"></div>
+      </div>
+    }
+
+    @case ('ripple') {
+      <div class="ripple">
+        <span></span><span></span>
+      </div>
+    }
+
+    @case ('bounce') {
+      <div class="bounce">
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('ring') {
+      <div class="ring">
+        <span></span><span></span>
+      </div>
+    }
+
+    @case ('wave') {
+      <div class="wave">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('flip') {
+      <div class="flip"></div>
+    }
+
+    @case ('orbit') {
+      <div class="orbit">
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('typing') {
+      <div class="typing">
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('grid') {
+      <div class="grid-loader">
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('clock') {
+      <div class="clock">
+        <span class="hour-hand"></span>
+        <span class="minute-hand"></span>
+      </div>
+    }
+
+    @case ('progress') {
+      <div class="progress-track">
+        <div class="progress-bar"></div>
+      </div>
+    }
+
+    @case ('hourglass') {
+      <div class="hourglass"></div>
+    }
+
+    @case ('square-spin') {
+      <div class="square-spin"></div>
+    }
+
+    @case ('windmill') {
+      <div class="windmill">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('helix') {
+      <div class="helix">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('radar') {
+      <div class="radar">
+        <span class="sweep"></span>
+      </div>
+    }
+
+    @case ('morphing') {
+      <div class="morphing"></div>
+    }
+
+    @case ('diamond') {
+      <div class="diamond">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('dna') {
+      <div class="dna">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('gauge') {
+      <div class="gauge">
+        <span class="needle"></span>
+      </div>
+    }
+
+    @case ('pendulum') {
+      <div class="pendulum">
+        <span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('chase') {
+      <div class="chase">
+        <span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+    @case ('heartbeat') {
+      <div class="heartbeat"></div>
+    }
+
+    @case ('infinity') {
+      <div class="infinity-loader">
+        <span></span>
+      </div>
+    }
+
+    @case ('zigzag') {
+      <div class="zigzag">
+        <span></span>
+      </div>
+    }
+
+    @case ('staircase') {
+      <div class="staircase">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    }
+
+  }
+
+</div>

@@ -38,6 +38,9 @@
     },
     {
       "path": "./projects/ngx-loader-ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/demo-app/tsconfig.app.json"
     }
   ]
 }
