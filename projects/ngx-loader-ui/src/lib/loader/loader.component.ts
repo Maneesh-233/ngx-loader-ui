@@ -46,8 +46,4 @@ export class LoaderComponent {
   @Input() type: LoaderType = 'spinner';
   @Input() color: string = '#1976d2';
   @Input() size: LoaderSize = 'md';
-
-  get cssVars(): Record<string, string> {
-    return { '--loader-color': this.color };
-  }
 }
